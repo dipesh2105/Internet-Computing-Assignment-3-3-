@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentList>
+   <student id="1">
+      <firstname>Dipesh</firstname>
+      <lastname>Bharambe</lastname>
+      <certificate>True</certificate>
+      <scores>
+         <module1>70</module1>
+         <module1>90</module1>
+         <module1>80</module1>
+      </scores>
+   </student>
+   <student id="2">
+      <firstname>David</firstname>
+      <lastname>Wood</lastname>
+      <certificate>True</certificate>
+      <scores>
+         <module1>60</module1>
+         <module1>75</module1>
+         <module1>95</module1>
+      </scores>
+   </student>
+   <student id="3">
+      <firstname>Denzil</firstname>
+      <lastname>Dsouza</lastname>
+      <certificate>True</certificate>
+      <scores>
+         <module1>75</module1>
+         <module1>98</module1>
+         <module1>84</module1>
+      </scores>
+   </student>
+</studentList>

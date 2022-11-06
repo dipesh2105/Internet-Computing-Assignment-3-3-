@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT studentList (student+)>
+<!ELEMENT student (firstname, lastname, certificate, scores)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT certificate (#PCDATA)>
+<!ELEMENT scores (#PCDATA)>
+<!ATTLIST student id CDATA #REQUIRED>
