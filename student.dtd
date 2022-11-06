@@ -4,5 +4,8 @@
 <!ELEMENT firstname (#PCDATA)>
 <!ELEMENT lastname (#PCDATA)>
 <!ELEMENT certificate (#PCDATA)>
-<!ELEMENT scores (#PCDATA)>
+<!ELEMENT scores (module1, module2, module3)>
+<!ELEMENT module1 (#PCDATA)>
+<!ELEMENT module2 (#PCDATA)>
+<!ELEMENT module3 (#PCDATA)>
 <!ATTLIST student id CDATA #REQUIRED>
